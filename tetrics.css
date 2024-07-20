@@ -1,0 +1,65 @@
+* {
+    width: 400px;
+    height: 650px;
+
+}
+
+h6{
+    color: red;
+    font-size: 25px;
+}
+
+body {
+   /* the one I am using*/ background-color: #05053ac9;  /* fallback for old browsers */
+    background-color: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); 
+    background-color: linear-gradient(to right, #91EAE4, #86A8E7, #0f0f41); 
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+.empty {
+    width:50px;
+    height: 50px;
+    display: inline-block;
+}
+.squareShape {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    outline: 2px solid black;
+    background-color: pink;
+    display: inline-block;
+}
+
+.button {
+    position: absolute;
+    right: 480px;
+    top: 790px;
+    width: 450px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #00fd7f;
+    font-size: 20px;
+}
+#world {
+    position: absolute;
+    right: 500px;
+    top: 90px;
+    background-repeat: no-repeat;
+    border-style: solid;
+    background: #007991;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-width: 10px;
+    border-radius: 3px;
+    box-shadow: 10px 5px 5px rgb(134, 0, 105);
+}
+
+h1 {
+        position: absolute;
+        left: 300px;
+    top: 300px;
+        font-size: 85px;
+        color: #050813;
+        text-shadow: 2px 2px 3px #1be6da;
+}
